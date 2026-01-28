@@ -47,4 +47,3 @@ class LibroDiario:
                 totales["egresos"] += transaccion["monto"]
 
         return totales
-    
