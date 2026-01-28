@@ -1,3 +1,9 @@
+"""
+Módulo de gestión contable para Negocios Digitales.
+Proporciona la clase LibroDiario para el registro de transacciones.
+"""
+
+
 class LibroDiario:
     """
     Clase que representa un libro contable para registrar ingresos y egresos.
@@ -39,4 +45,6 @@ class LibroDiario:
                 totales["ingresos"] += transaccion["monto"]
             else:
                 totales["egresos"] += transaccion["monto"]
+
         return totales
+    
